@@ -1,5 +1,5 @@
 # Product Landing Page - Nostalgia Radio
----
+
 Product Landing Page ini saya buat untuk memenuhi project di Freecodecamp, yaitu [Build a product landing page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page).
 
 Assets icon di landing page ini saya mendownloadnya di [iconscout.com](https://iconscout.com/).
@@ -33,3 +33,18 @@ Assets icon di landing page ini saya mendownloadnya di [iconscout.com](https://i
         width: calc(100% / 1.5);
     }
 ```
+
+* menemukan code css agar page anchor tidak ketutup navbar yang fix
+
+```css
+*[id]:before { 
+    display: block; 
+    content: " "; 
+    margin-top: -7.25rem; 
+    height: 7.25rem; 
+    visibility: hidden; 
+  }
+```
+`margin-top` dan `height` menyesuaikan tinggi navbar.
+
+Tampilan Product landing page, klik di [sini](https://fitrifityanto.github.io/product-landing-page--nostalgia-radio/)
