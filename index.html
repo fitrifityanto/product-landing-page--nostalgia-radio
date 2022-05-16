@@ -13,128 +13,140 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-<!-- Header -->
-<header id="header">
-    <!-- logo dan Navbar -->
-    <div class="header">
-            <img id="header-img" src="images/logo-brand-black.png" alt="logo-brand">
-        <nav id="nav-bar">
-            <ul>
-                <li><a href="#features" class="nav-link">Features</a></li>
-                <li><a href="#howitworks" class="nav-link">How It Works</a></li>
-                <li><a href="#pricing" class="nav-link">Pricing</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
-<!-- End Header -->
+    <!-- Header -->
+    <header id="header">
+        <div class="fluid">
+            <div class="header--section">
+                <div class="header-img">
+                    <a href="#"><img id="header-img" src="images/logo-brand-black.png" alt="Logo Nostalgia Radio"></a> 
+                </div>
+                <!-- Navbar -->
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a class="nav-link" href="#features">Features</a> </li>
+                        <li><a class="nav-link" href="#howitworks">How It Works</a> </li>
+                        <li><a class="nav-link" href="#pricing">Pricing</a> </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- End Navbar -->
+        </div>
+    </header>
+    <!-- end Header -->
 
-<!-- CTA -->
-<div id="hero">
-    <div class="container short-title text-center">
-        <h1>Retro radio is a rarity. Be the first to get the info</h1>
-    </div>
-    <form action="https://www.freecodecamp.com/email-submit)" method="get" id="form">
-    <div class="container form-items">
-        <label for="email"></label>
-        <input type="email" name="email" id="email"  placeholder="Enter your email" required>
-    </div>
-    <div class="container form-items">
-        <button name="button" id="submit">Get Started</button>
-    </div>
-    </form>
-</div>
-
-<!-- Features -->
-<div id="features">
-    <div class="container features-content">
-        <div class="features-items">
-            <div class="features-icon"><img src="images/radio.svg" alt="" width="64px"></div>
-            <div class="features-text">
-                <div class="features-title"><h2>Original Materials</h2></div>
-                <div class="features-desc">Our products are the result of restoration from original materials</div>
+    <main>
+        <div id="hero">
+            <div class="container">
+                <div class="hero--section">
+                    <h1>Retro radio is a rarity. Be the first to get the info</h1>
+                    <form action="https://www.freecodecamp.com/email-submit" method="get" id="form">
+                        <div class="form--item">
+                            <label for="email"></label>
+                            <input type="email" name="email" id="email" placeholder="enter your email" required>
+                            <input type="submit" value="Get Started" id="submit">
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
-        <div class="features-items">
-            <div class="features-icon"><img src="images/innovation.svg" width="64px" alt=""></div>
-            <div class="features-text">
-                <div class="features-title"><h2>Neat Quality</h2></div>
-                <div class="features-desc">Our original retro radio material is neatly restored and for sure you can enjoy the sound</div>
+
+        <div id="features">
+            <div class="container">
+                <div class="features--section">
+                    <div class="feature--item">
+                        <div class="feature-item__icon"><img src="images/radio.svg" alt=""></div>
+                        <div class="feature-item__content">
+                            <h2>Original Materials</h2>
+                            <p>Our products are the result of restoration from original materials</p>
+                        </div>
+                    </div>
+                    <div class="feature--item">
+                        <div class="feature-item__icon"><img src="images/innovation.svg" alt=""></div>
+                        <div class="feature-item__content">
+                            <h2>Neat Quality</h2>
+                            <p>Our original retro radio material is neatly restored and for sure you can enjoy the sound</p>
+                        </div>
+                    </div>
+                    <div class="feature--item">
+                        <div class="feature-item__icon"><img src="images/safety.svg" alt=""></div>
+                        <div class="feature-item__content">
+                            <h2>Safe Delivery</h2>
+                            <p>We pack our products for you safely, so that you receive them without any damage</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="features-items">
-            <div class="features-icon"><img src="images/safety.svg" width="64px" alt=""></div>
-            <div class="features-text">
-                <div class="features-title"><h2>Safe Delivery</h2></div>
-                <div class="features-desc">We pack our products for you safely, so that you receive them without any damage</div>
+
+        <div id="howitworks">
+            <div class="container">
+                <div class="howitworks--section text--center">
+                    <iframe id="video" src="https://www.youtube.com/embed/OnIwEWQONqU" height="315"></iframe>
+                </div>
             </div>
         </div>
-    </div>
-</div>
-<!-- End Features -->
 
-<!-- embed Video Youtube -->
-<div id="howitworks">
-    <div class="container text-center">
-        <div class="container-video">
-            <iframe id="video" src="https://www.youtube.com/embed/OnIwEWQONqU" height="315"></iframe>
+        <div id="pricing">
+            <div class="container">
+                <div class="pricing--section">
+                    <div class="pricing--item text--center">
+                        <div class="pricing-item__title"><h2>Transistor Radio</h2></div>
+                        <div class="pricing-item__content">
+                            <div class="pricing-content__price"><h3>$500</h3></div>
+                            <div class="pricing-content_des">
+                                <p>Lorem, ipsum dolor.</p>
+                                <p>Lorem, ipsum dolor.</p>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="pricing-content__btn"><a href="">SELECT</a></div>
+                        </div>
+                    </div>
+                    <div class="pricing--item text--center">
+                        <div class="pricing-item__title"><h2>Bread Radio</h2></div>
+                        <div class="pricing-item__content">
+                            <div class="pricing-content__price"><h3>$1200</h3></div>
+                            <div class="pricing-content_des">
+                                <p>Lorem, ipsum dolor.</p>
+                                <p>Lorem, ipsum dolor.</p>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="pricing-content__btn"><a href="">SELECT</a></div>
+                        </div>
+                    </div>
+                    <div class="pricing--item text--center">
+                        <div class="pricing-item__title"><h2>Tape Radio</h2></div>
+                        <div class="pricing-item__content">
+                            <div class="pricing-content__price"><h3>$1500</h3></div>
+                            <div class="pricing-content_des">
+                                <p>Lorem, ipsum dolor.</p>
+                                <p>Lorem, ipsum dolor.</p>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="pricing-content__btn"><a href="">SELECT</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
+    </main>
 
-<!-- Pricing -->
-<div id="pricing">
-    <div class="container container-pricing">
-        <div class="items-pricing">
-            <div class="pricing-title"><h3>Transistor Radio</h3></div>
-            <p class="price">$500</p>
-            <p>Lorem, ipsum dolor.</p>
-            <p>Lorem, ipsum dolor.</p>
-            <p>Lorem, ipsum dolor.</p>
-            <a href="" class="button">SELECT</a>
+    <footer>
+        <div class="fluid">
+            <div class="footer">
+                <div class="footer-link">
+                    <ul>
+                        <li>Privacy</li>
+                        <li>Term</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="footer--brand">
+                    <p>Copyright 2022 <a href="#hero">Nostalgia RADIO</a> </p>
+                </div>
+            </div>
         </div>
-        <div class="items-pricing">
-            <div class="pricing-title"><h3>Bread Radio</h3></div>
-            <p class="price">$1200</p>
-            <p>Lorem, ipsum .</p>
-            <p>Lorem, ipsum </p>
-            <p>Lorem, ipsum </p>
-            <a href="" class="button">SELECT</a>
-        </div>
-        <div class="items-pricing">
-            <div class="pricing-title"><h3>Tape Radio</h3></div>            
-            <p class="price">$1500</p>
-            <p>Lorem, ipsum dolor.</p>
-            <p>Lorem, ipsum dolor.</p>
-            <p>Lorem, ipsum dolor.</p>
-            <a href="" class="button">SELECT</a>
-        </div>
-    </div>
-</div>
-<!-- End pricing -->
-
-<!-- Footer -->
-<footer>
-    <div class="footer">
-        <div class="menu-footer">
-            <ul>
-                <li>Privacy</li>
-                <li>Term</li>
-                <li>Contact</li>
-            </ul>
-        </div>
-        <div class="copyright">
-            <p>Copyright 2022 Nostalgia RADIO</p>
-        </div>
-    </div>
-</footer>
-<!-- End Footer -->
-
-
-<!-- Javascript freecodecamp -->
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </footer>
 </body>
 </html>
