@@ -1,9 +1,11 @@
 # Product Landing Page - Nostalgia Radio
 
 Halo semua :wave: ...
-di Halaman README.md ini saya akan menjelaskan sedikit tentang koding saya dalam membangun **Halaman Landing Page - Nostalgia Radio**. Sebelumnya saya sudah pernah membuat halaman yang sama dengan materi konten yang sama. kodingan-nya bisa kalian cek di v.1.0. Dan kali ini saya bangun ulang, entahlah, saya hanya ingin membuat ulang saja. hehe..
+di Halaman README.md ini saya akan menjelaskan sedikit tentang kodingan saya dalam membangun **Halaman Landing Page - Nostalgia Radio**. Sebelumnya saya sudah pernah membuat halaman yang sama dengan materi konten yang sama. kodingan-nya bisa kalian cek di [v.1.0](https://github.com/fitrifityanto/product-landing-page--nostalgia-radio/tree/main/v.1.0). Dan kali ini saya bangun ulang, entahlah, saya hanya ingin membuat ulang saja. hehe..
 
 Oke, disini saya akan menjelaskan sedikit tentang kodingan saya dan beberapa kodingan yang telah saya pelajari. saya masih menggunakan HTML dan CSS saja. saya kira baris kode kodingan saya bakalan berkurang dari yang v.1.0, tapi ternyata kok lebih panjang, hahaha
+
+> Akan lebih membantu jika membaca penjelasan kodingan HTML dan CSS dibawah ini dengan sambil melihat file [index.html](https://github.com/fitrifityanto/product-landing-page--nostalgia-radio/blob/main/index.html) dan file [style.css](https://github.com/fitrifityanto/product-landing-page--nostalgia-radio/blob/main/style.css) :v: :thumbsup:
 
 - [Product Landing Page - Nostalgia Radio](#product-landing-page---nostalgia-radio)
   - [Struktur Markup HTML](#struktur-markup-html)
